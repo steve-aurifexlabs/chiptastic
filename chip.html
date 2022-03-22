@@ -1,0 +1,122 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Chiptastic</title>
+		<link rel="stylesheet" href="./chip.css">
+	</head>
+	<body>
+		<p id="state-string"></p>
+
+		<canvas id="main-canvas"></canvas>
+		<canvas id="draw-canvas"></canvas>
+
+		<div id="instructions">
+			<p id="version">Chiptastic v0.2.2</p>
+
+			<p id="edit-title" class="right-title">Edit</p>
+			<p id="cells-title" class="right-title">Cells</p>
+			<p id="go-title" class="right-title">Tools</p>
+
+			<br>
+			<p><b>ESC</b> End command</p>
+			<p><b>1 - 7</b> Zoom / Center</p>
+			<p><b>(Ctrl-)Arrows</b> Move</p>
+			<br>
+			<hr>
+			<br>
+			<p><b>W</b> Wire</p>
+			<p><b>B</b> 0 / 1</p>
+			<p><b>V</b> Via</p>
+			<p><b>Del</b> Delete</p>
+			<br>
+			<hr>
+			<br>
+			<p><b>I</b> Inverter</p>
+			<p><b>A</b> And</p>
+			<p><b>O</b> Or</p>
+			<p><b>X</b> Xor</p>
+			<p></p>
+			<p><b>M</b> Mux</p>
+			<p><b>F</b> Flip-Flop</p>
+			<p><b>+</b> Full Adder</p>
+			<p><b>Ctrl-S</b> Save</p>
+			<p><b>Ctrl-L</b> Load</p>
+			<p class="todo"><b>C</b> Config</p>
+			<p class="todo"><b>H</b> Help</p>
+			<br>
+			<hr>
+			<br><br>
+			<p><em><b>N</b> Annotate</em></p>
+			<p class="todo"><em><b>D</b> Metadata</em></p>
+			<p class="todo"><em><b>G</b> Generate</em></p>
+			<p class="todo"><em><b>P</b> Physical</em></p>
+			<p class="todo"><em><b>T</b> Timing</em></p>
+			<p class="todo"><em><b>E</b> Extract</em></p>
+			<p class="todo"><em><b>U</b> Simulate</em></p>
+			<br><br>
+			<hr>
+			<br>
+			<p class="todo"><a href="/">Aurifex Labs LLC</a></p>
+			<p class="todo"><a href="chiptastic-22feb11.zip">Download</a> / <a href="/#training">Learn VLSI</a></p>
+			<br>
+		</div>
+
+		<div id="cells2">
+			<img name="inv" src="./2/inv.png">
+			<img name="and2" src="./2/and2.png">
+			<img name="or2" src="./2/or2.png">
+			<img name="xor2" src="./2/xor2.png">
+			<img name="sdfrtp" src="./2/sdfrtp.png">
+			<img name="mux2" src="./2/mux2.png">
+			<img name="fa" src="./2/fa.png">
+		</div>
+		<div id="cells3">
+			<img name="inv" src="./3/inv.png">
+			<img name="and2" src="./3/and2.png">
+			<img name="or2" src="./3/or2.png">
+			<img name="xor2" src="./3/xor2.png">
+			<img name="sdfrtp" src="./3/sdfrtp.png">
+			<img name="mux2" src="./3/mux2.png">
+			<img name="fa" src="./3/fa.png">
+		</div>
+		<div id="cells4">
+			<img name="inv" src="./4/inv.png">
+			<img name="and2" src="./4/and2.png">
+			<img name="or2" src="./4/or2.png">
+			<img name="xor2" src="./4/xor2.png">
+			<img name="sdfrtp" src="./4/sdfrtp.png">
+			<img name="mux2" src="./4/mux2.png">
+			<img name="fa" src="./4/fa.png">
+		</div>
+		<div id="cells5">
+			<img name="inv" src="./5/inv.png">
+			<img name="and2" src="./5/and2.png">
+			<img name="or2" src="./5/or2.png">
+			<img name="xor2" src="./5/xor2.png">
+			<img name="sdfrtp" src="./5/sdfrtp.png">
+			<img name="mux2" src="./5/mux2.png">
+			<img name="fa" src="./5/fa.png">
+		</div>
+		<div id="cells6">
+			<img name="inv" src="./5/inv.png">
+			<img name="and2" src="./5/and2.png">
+			<img name="or2" src="./5/or2.png">
+			<img name="xor2" src="./5/xor2.png">
+			<img name="sdfrtp" src="./5/sdfrtp.png">
+			<img name="mux2" src="./5/mux2.png">
+			<img name="fa" src="./5/fa.png">
+		</div>
+		<div id="cells7">
+			<img name="inv" src="./5/inv.png">
+			<img name="and2" src="./5/and2.png">
+			<img name="or2" src="./5/or2.png">
+			<img name="xor2" src="./5/xor2.png">
+			<img name="sdfrtp" src="./5/sdfrtp.png">
+			<img name="mux2" src="./5/mux2.png">
+			<img name="fa" src="./5/fa.png">
+		</div>
+		<script src="./chip.js"></script>
+	</body>
+</html>

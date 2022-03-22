@@ -1,0 +1,81 @@
+html, body {
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+canvas#draw-canvas {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#cells2, #cells3, #cells4, #cells5 {
+	display: none;
+}
+
+#instructions {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	background: #fff;
+	padding: 10px;
+	border: 1px solid #bbb;
+	font-size: 90%;
+	columns: 2;
+	column-rule: 1px solid black;
+}
+
+#instructions a {
+	font-size: 75%;
+}
+
+.right-title {
+	font-size: 150%;
+	color: #ccc;
+	position: fixed;
+}
+
+#edit-title {
+	top: 155px;
+	right: 180px;
+}
+
+#cells-title {
+	top: 335px;
+	right: 180px;
+}
+
+#go-title {
+	top: 155px;
+	right: 30px;
+}
+
+#version {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	margin: 0;
+	padding: 0;
+	font-size: 125%;
+}
+
+#state-string {
+	position: fixed;
+	bottom: 2px;
+	left: 2px;
+	font-size: 75%;
+	color: #888;
+	padding: 0;
+	margin: 0;
+	background: #fff;
+}
+
+input[type="file"] {
+	opacity: 0;
+}
+
+.todo {
+	color: #bbb;
+}
